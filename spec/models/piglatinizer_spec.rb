@@ -1,5 +1,5 @@
 describe 'class PigLatinizer' do
-  let!(:words) { PigLatinizer.new }
+  let!(:words) { PigLatinizer.new } # Word is an instance of Piglanizer
 
 
   it 'can create a new instance of a class' do
