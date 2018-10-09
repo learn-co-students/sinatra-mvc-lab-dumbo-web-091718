@@ -1,9 +1,9 @@
 
 class PigLatinizer
 
-def piglatinize(string)
-
-end
+# def piglatinize(string)
+#
+# end
 def piglatinize(sent)
 words = sent.split(' ')
 
