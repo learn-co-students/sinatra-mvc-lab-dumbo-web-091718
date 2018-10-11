@@ -14,7 +14,6 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-    # https://coderwall.com/p/qfh2ua/ruby-tricks-to-make-your-code-more-fun-and-less-readable
     word.split(' ').map(&method(:transform)).join(' ')
   end
 end
